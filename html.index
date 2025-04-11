@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <head> 
+        <link rel= "stylesheet" href="./resources/styles.css" type:"css">
+    </head>
+     <body>
+    <h1> CSS Selectors Reference</h1>
+    <h2> Selectors table </h2>
+    <table>
+        <thead>
+            <th> Selector </th>
+            <th> Example </th>
+            <th> Defintion </th>
+        </thead>
+             <tbody>
+                <tr>
+                    <td> <div class="selector"> Element </div> </td>
+                    <td> h1 </td>
+                    <td> selects all h1 elements</td>
+                </tr>
+                <tr>
+                    <td> <div class="selector"> id </div> </td>
+                    <td> #selector </td>
+                    <td> selects all elemeents with id=selector</td>
+                </tr>
+                <tr>
+                    <td> <div class="selector"> class </div> </td>
+                    <td> .selector </td>
+                    <td> selects all elemeents with class=selector</td>
+                </tr>
+                <tr>
+                    <td> <div class="selector"> element.class </div> </td>
+                    <td> h1.selector </td>
+                    <td> selects class=selector within h1 elements</td>
+                </tr>
+                <tr>
+                    <td> <div class="selector"> * </div> </td>
+                    <td> * </td>
+                    <td> selects all elements</td>
+                </tr>
+             </tbody>
+    </table>
+
+    </body>
